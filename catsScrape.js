@@ -13,8 +13,7 @@ const USER_AGENT =
 
 async function getCatsData(address) {
   const data = await fetch(address, {
-    proxy:
-      "http://scraperapi:4d34d0f09c6eed2415534ef48df89e67@proxy-server.scraperapi.com:8001",
+  
     headers: {
       accept: "application/json, text/plain, */*",
       "accept-language": "en-US,en;q=0.9",
